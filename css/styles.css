@@ -1,0 +1,192 @@
+/* ================================TAG SELECTORS================================ */
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    line-height: 1;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+hr {
+    border: dotted #dfddc7 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 4%;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+    color: #40514E;
+    margin-bottom: 0;
+    line-height: 2;
+}
+
+div {
+    margin: 0;
+}
+
+/* ===============================ID SELECTORS================================ */
+#sub-title {
+    font-weight: normal;
+}
+
+/* ============================CLASSES FOR DIVS=============================== */
+.top-container {
+    background-color: #e4f9ff;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: white;
+    margin: 50px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin: 30px auto 0 auto;
+    padding: 50px 0 20px;
+}
+
+/* ============================CLASSES FOR TEXTS============================== */
+.contact-me {
+    margin: 30px auto 30px auto;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.footer-link {
+    font-weight: normal;
+}
+
+.intro {
+    width: 40%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+.btn:hover {
+	background:linear-gradient(to bottom, #2bc4ad 5%, #30e3cb 100%);
+	background-color:#2bc4ad;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/* ===========================CLASSES FOR IMAGES============================== */
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+.computer-img {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.mountain {
+    margin: 0;
+}
+
+.profile-img {
+    margin: 2rem auto 2rem auto;
+}
+
+.skill-img {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+/* ==================================NOTES=====================================
+display and visibility
+ - display
+    inline
+    block
+    inline-block
+    none
+
+ - visibility
+     none
+     hidden
+
+span and p
+ - span: inline
+ - p: none
+
+ */
